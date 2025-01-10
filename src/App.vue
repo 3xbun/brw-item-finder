@@ -2,6 +2,7 @@
   <div class="container">
     <h1>ITEM FINDER</h1>
     <div class="filter">
+      <input type="text" placeholder="Search Item by Name">
       <select name="year" id="year" v-model="filter.year">
         <option v-if="filter.year == ''" selected="" value="">SELECT YEAR</option>
         <option v-for="y in year" :value="y">{{ y }}</option>
@@ -85,7 +86,7 @@ const filteredItems = computed(() => {
 const year = computed(() => {
   const year = [];
 
-  Items.forEach(item => {
+  filteredItems.value.forEach(item => {
     if (!year.includes(item.YEAR)) {
       year.push(item.YEAR);
     }
@@ -97,7 +98,7 @@ const year = computed(() => {
 const type = computed(() => {
   const type = [];
 
-  Items.forEach(item => {
+  filteredItems.value.forEach(item => {
     if (!type.includes(item.TYPE)) {
       type.push(item.TYPE);
     }
@@ -109,7 +110,7 @@ const type = computed(() => {
 const cost = computed(() => {
   const cost = [];
 
-  Items.forEach(item => {
+  filteredItems.value.forEach(item => {
     if (!cost.includes(item.COST)) {
       cost.push(item.COST);
     }

@@ -32,18 +32,20 @@ h1 {
 }
 
 .filter select,
-button {
+button,
+input {
   background-color: #B0B0B0;
   padding: .5em;
   border-radius: .5em;
   width: 100%;
   cursor: pointer;
   text-align: center;
+  border: none;
+  font-size: inherit;
 }
 
 button {
   background-color: #FF4D4D;
-  border: none;
   color: #E0E0E0;
   font-weight: bold;
 }
