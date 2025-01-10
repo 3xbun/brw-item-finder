@@ -1,0 +1,40 @@
+{
+  "Items": [
+    {
+      "YEAR": "0079",
+      "TYPE": "MELEE",
+      "COST": 2,
+      "DETAIL": "Beam saber \n- [ใกล้,พลังงาน]\n- DMG 1 เต๋า"
+    },
+    {
+      "YEAR": "0089",
+      "TYPE": "RANGE",
+      "COST": 4,
+      "DETAIL": "BOWA*XBR-M-79-07G Beam Rifle \n- [ไกล,พลังงาน]\n- DMG 2 เต๋า"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "Armor",
+      "COST": 1,
+      "DETAIL": "โล่ Luna Titanium  x3\n- [ใกล้,กายภาพ]"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "RANGE",
+      "COST": 4,
+      "DETAIL": "BLASH*XHB-L-03/N-STD Hyper Bazooka \n- [ไกล,กายภาพ] \n- DMG 2 เต๋า"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "MELEE",
+      "COST": 4,
+      "DETAIL": "Beam Javelin \n- [กลาง,พลังงาน] \n- DMG d2 เต๋า"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "MELEE",
+      "COST": 2,
+      "DETAIL": "Hyper Hammer \n- [กลาง,กายภาพ]\n- ก่อนโจมตีทอย d2 ที่ TN 2 เมื่อสำเร็จระยะโจมตีเป็น 3 ช่อง\n- DMG 1 เต๋า"
+    }
+  ]
+}
