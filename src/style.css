@@ -7,6 +7,14 @@
   font-family: "Noto Sans Thai", serif;
 }
 
+img {
+  width: 50%;
+}
+
+header {
+  text-align: center;
+}
+
 body {
   background-color: #121212;
   color: #E0E0E0;

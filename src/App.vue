@@ -1,6 +1,9 @@
 <template>
   <div class="container">
-    <h1>ITEM FINDER</h1>
+    <header>
+      <img src="/BRW_logo_new.png" alt="logo">
+      <h1>ITEM FINDER</h1>
+    </header>
     <div class="filter">
       <input type="text" placeholder="Search Item by Name" v-model="filter.details">
       <select name="year" id="year" v-model="filter.year">
