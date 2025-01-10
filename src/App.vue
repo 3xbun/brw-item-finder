@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h1>Item Finder</h1>
+  <div class="container">
+    <h1>ITEM FINDER</h1>
     <div class="filter">
       <select name="year" id="year" v-model="filter.year">
         <option v-for="y in year" :value="y">{{ y }}</option>
@@ -16,7 +16,7 @@
         type: '',
         cost: '',
         details: ''
-      }">reset</button>
+      }">RESET</button>
     </div>
 
     <table v-if="filteredItems.length > 0">
@@ -88,7 +88,7 @@ const year = computed(() => {
     }
   });
 
-  return year;
+  return year.sort((a, b) => a - b);
 })
 
 const type = computed(() => {
@@ -112,7 +112,7 @@ const cost = computed(() => {
     }
   });
 
-  return cost;
+  return cost.sort((a, b) => a - b);;
 })
 </script>
 
