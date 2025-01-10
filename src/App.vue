@@ -2,7 +2,7 @@
   <div class="container">
     <h1>ITEM FINDER</h1>
     <div class="filter">
-      <input type="text" placeholder="Search Item by Name">
+      <input type="text" placeholder="Search Item by Name" v-model="filter.details">
       <select name="year" id="year" v-model="filter.year">
         <option v-if="filter.year == ''" selected="" value="">SELECT YEAR</option>
         <option v-for="y in year" :value="y">{{ y }}</option>
@@ -78,7 +78,7 @@ const filteredItems = computed(() => {
       (filter.value.year ? item.YEAR === filter.value.year : true) &&
       (filter.value.type ? item.TYPE === filter.value.type : true) &&
       (filter.value.cost ? item.COST === filter.value.cost : true) &&
-      (filter.value.details ? item.DETAIL === filter.value.details : true)
+      (filter.value.details ? item.DETAIL.startsWith(filter.value.details) : true)
     );
   });
 })
