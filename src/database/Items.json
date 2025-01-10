@@ -4,37 +4,1027 @@
       "YEAR": "0079",
       "TYPE": "MELEE",
       "COST": 2,
-      "DETAIL": "Beam saber \n- [ใกล้,พลังงาน]\n- DMG 1 เต๋า"
-    },
-    {
-      "YEAR": "0089",
-      "TYPE": "RANGE",
-      "COST": 4,
-      "DETAIL": "BOWA*XBR-M-79-07G Beam Rifle \n- [ไกล,พลังงาน]\n- DMG 2 เต๋า"
+      "DETAIL": "Beam saber (4)\n- [ใกล้,พลังงาน]\n- DMG 1 เต๋า"
     },
     {
       "YEAR": "0079",
-      "TYPE": "Armor",
+      "TYPE": "RANGE",
+      "COST": 4,
+      "DETAIL": "BOWA*XBR-M-79-07G Beam Rifle (4)\n- [ไกล,พลังงาน]\n- DMG 2 เต๋า"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "Equipment [x]",
       "COST": 1,
-      "DETAIL": "โล่ Luna Titanium  x3\n- [ใกล้,กายภาพ]"
+      "DETAIL": "โล่ Luna Titanium (1) x3\n- [ใกล้,กายภาพ]"
     },
     {
       "YEAR": "0079",
       "TYPE": "RANGE",
       "COST": 4,
-      "DETAIL": "BLASH*XHB-L-03/N-STD Hyper Bazooka \n- [ไกล,กายภาพ] \n- DMG 2 เต๋า"
+      "DETAIL": "BLASH*XHB-L-03/N-STD Hyper Bazooka (4)\n- [ไกล,กายภาพ] \n- DMG 2 เต๋า"
     },
     {
       "YEAR": "0079",
       "TYPE": "MELEE",
       "COST": 4,
-      "DETAIL": "Beam Javelin \n- [กลาง,พลังงาน] \n- DMG d2 เต๋า"
+      "DETAIL": "Beam Javelin (4)\n- [กลาง,พลังงาน] \n- DMG d2 เต๋า"
     },
     {
       "YEAR": "0079",
       "TYPE": "MELEE",
       "COST": 2,
-      "DETAIL": "Hyper Hammer \n- [กลาง,กายภาพ]\n- ก่อนโจมตีทอย d2 ที่ TN 2 เมื่อสำเร็จระยะโจมตีเป็น 3 ช่อง\n- DMG 1 เต๋า"
+      "DETAIL": "Hyper Hammer (2)\n- [กลาง,กายภาพ]\n- ก่อนโจมตีทอย d2 ที่ TN 2 เมื่อสำเร็จระยะโจมตีเป็น 3 ช่อง\n- DMG 1 เต๋า"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "Augmented Parts [Body]",
+      "COST": 1,
+      "DETAIL": "Vulcan Gun (1) x3\n    - [ไกล,กายภาพ,Body]\n    - ระยะ 2 ช่อง\n    - เมื่อโจมตีสำเร็จให้ทอย TNที่ 4+ ถ้าสำเร็จ DMG +1"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "RANGE",
+      "COST": 2,
+      "DETAIL": "120mm Machine Gun (2)\n- [ไกล,กายภาพ]\n- DMG 1 เต๋า\n- สามารถเลือกโจมตีได้ 2 ครั้งในหนึ่งเทิร์น หลังจากนั่นต้องรีโหลด"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "Augmented Parts [Propulsion]",
+      "COST": 2,
+      "DETAIL": "Amphibious Booster (2)\n- [Propulsion]\n- เมื่ออยู่พื้นที่น้ำ [Propulsion] +2 เต๋า"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "MELEE",
+      "COST": 2,
+      "DETAIL": "Heat Hawk (2)\n- [ใกล้,กายภาพ,ความร้อน]\n- DMG 1 เต๋า"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "Equipment [+]",
+      "COST": 1,
+      "DETAIL": "Sturm Faust (1) +2\n- [ไกล,กายภาพ,ระเบิด]\n- ถ้าโจมตีสำเร็จทำDMGอีก 1 เต๋า\n- เมื่อโจมตีสำเร็จให้เป้าหมายทอยเต๋าถ้าได้ 3- จะไม่สามารถเข้า Other Action Phase ได้"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "Equipment [+]",
+      "COST": 1,
+      "DETAIL": "Hand Grenade (1) +2\n- [ไกล,กายภาพ,ระเบิด]\n- ใช้ Other Action Phase เพื่อปาพื้นที่ใดก็ได้ในระยะตามเลขเต๋าของ Body ปัจจุบัน\n- ทำ DMG 1 เต๋าต่อยูนิต และทำDMG 2 เต๋าต่อที่กำบังในรัศมี 2 ช่อง\n- ถ้าใช้เสริมการโจมตีสำเร็จทำDMGอีก 1 เต๋ารวมถึงยูนิตที่รอบตัวภายในรัศมี 1 ช่อง"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "Equipment [+]",
+      "COST": 1,
+      "DETAIL": "Smoke Grenade (1) +1\n- [ไกล,กายภาพ,ระเบิด]\n- ใช้ Other Action Phase เพื่อปาพื้นที่ใดก็ได้ในระยะตามเลขเต๋าของ [Body] ปัจจุบัน\n- สร้างพื้นที่บดบังวิสัยทัศน์ในบริเวณรัศมี 2 ช่องที่ถูกปาเป็นเวลา 2 เทิร์นของตนเอง และยูนิตในพื้นที่จะได้การกระทำ ซ่อนตัว ทันที"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "RANGE",
+      "COST": 2,
+      "DETAIL": "Beam spray gun (2)\n- [ไกล,พลังงาน]\n- DMG 1 เต๋า\n- สามารถใช้ยิงได้ แม้เทิร์นนี้โจมตีระยะใกล้แล้ว\n- เมื่อเล็งศัตรูที่อยู่ติดกันจะโจมตีไม่เสียเปรียบ"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "RANGE",
+      "COST": 2,
+      "DETAIL": "90mm Bullpup Machine Gun (2) \n- [ไกล,กายภาพ]\n- DMG 1 เต๋า\n- สามารถเลือกโจมตีได้ 2 ครั้งในหนึ่งเทิร์น หลังจากนั่นต้องรีโหลด"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "RANGE",
+      "COST": 5,
+      "DETAIL": "Sniper Beam rifle (5)\n- [ไกล,พลังงาน]\n- DMG 2 เต๋า"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "RANGE",
+      "COST": 3,
+      "DETAIL": "240mm Cannon (3)\n- [ไกล,กายภาพ,ระเบิด]\n- DMG 1 เต๋า\n- เมื่อหมอบลง DMG d2 เต๋า"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "RANGE",
+      "COST": 4,
+      "DETAIL": "XBR-M-79a Beam Rifle (4)\n- [ไกล,พลังงาน]\n- DMG 2 เต๋า"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "RANGE",
+      "COST": 4,
+      "DETAIL": "120mm Low-Recoil Cannon (4)\n- [ไกล,กายภาพ,ระเบิด]\n- DMG 2 เต๋า"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "Equipment [+]",
+      "COST": 3,
+      "DETAIL": "4-tube 40mm Bop Missile Launcher (3)\n- ถ้าโจมตีสำเร็จทำDMGอีก 1 เต๋า\n- สามารถใช้อุปกรณ์กระสุนดวงนี้ได้ 3 ครั้ง"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "MEDIUM",
+      "COST": 2,
+      "DETAIL": "Heat Rod (2) \n- [กลาง,กายภาพ,ไฟฟ้า]\n- DMG 1 เต๋า\n- เมื่อโจมตีสำเร็จ เป้าหมายต้องทอยเต๋า 2+ ถ้าไม่ผ่าน\n  จะไม่สามารถเคลื่อนที่ได้ 1 เทิร์น"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "MELEE",
+      "COST": 3,
+      "DETAIL": "Heat Sword (3)\n- [ใกล้,กายภาพ,ความร้อน]\n- DMG 1 เต๋า\n- เมื่อใช้อาวุธนี้โจมตียูนิตตัวเดียว 2 ครั้งติดต่อกัน ยูนิตนั้นเข้า \nOther Action Phase ไม่ได้ในรอบถัดไป"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "Equipment [x]",
+      "COST": 1,
+      "DETAIL": "Shield (1) x3\n- [ใกล้,กายภาพ]"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "Equipment [x]",
+      "COST": 1,
+      "DETAIL": "Scatter beam gun (1)x3\n    - [ไกล,พลังงาน,Body]\n    - ถ้าโจมตีสำเร็จทำDMG+1\n    - เมื่อโจมตีสำเร็จให้ทอย TNที่ 4+ ถ้าสำเร็จ DMG +1"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "MELEE",
+      "COST": 2,
+      "DETAIL": "Heat Saber (2)\n- [ไกล,กายภาพ,ความร้อน]\n- DMG 1 เต๋า"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "RANGE",
+      "COST": 4,
+      "DETAIL": "360mm Giant Bazooka (4)\n- [ไกล,กายภาพ,ระเบิด]\n- DMG 2 เต๋า"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "Augmented Parts [Body]",
+      "COST": 3,
+      "DETAIL": "Amphibious Module (3)\n    - [Body]\n    - เมื่อซ่อนตัว จะมีความยากในการถูกตามหาที่ 11 เต๋า"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "RANGE",
+      "COST": 3,
+      "DETAIL": "Mega Particle Cannon (3)\n- [ไกล,พลังงาน]\n- DMG 1 เต๋า"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "MELEE",
+      "COST": 3,
+      "DETAIL": "Iron Nail (3)\n- [ใกล้,กายภาพ]\n- DMG 1 เต๋า"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "RANGE",
+      "COST": 1,
+      "DETAIL": "Torpedo Launcher (1) \n- [ไกล,กายภาพ,ระเบิด]\n- ถ้าโจมตีสำเร็จทำDMGอีก 1 เต๋า\n- เมื่อโจมตีสำเร็จให้เป้าหมายทอยเต๋าถ้าได้ 3- จะไม่สามารถเข้า\n  Other Action Phase ได้"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "RANGE",
+      "COST": 2,
+      "DETAIL": "Boomerang Cutter (2)\n- [ไกล,กายภาพ]\n- DMG 1 เต๋า\n- สามารถเลือกโจมตีได้ 2 ครั้งในหนึ่งเทิร์น หลังจากนั่นต้องรีโหลด"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "RANGE",
+      "COST": 3,
+      "DETAIL": "Photon Maser Gun (3)\n- [ไกล,พลังงาน]\n- DMG 1 เต๋า"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "Equipment [x]",
+      "COST": 1,
+      "DETAIL": "105mm Vulcan Gun (1) x3\n    - [ไกล,กายภาพ,Body]\n    - ระยะ 2 ช่อง\n    - เมื่อโจมตีสำเร็จให้ทอยD6 TNที่ 4+ ถ้าสำเร็จ DMG +1"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "Equipment [x]",
+      "COST": 2,
+      "DETAIL": "6-tube Missile Launcher (2) x3\n- [ไกล,กายภาพ,ระเบิด]\n- เมื่อโจมตีสำเร็จทำDMGอีก 1 เต๋า"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "Equipment [+]",
+      "COST": 1,
+      "DETAIL": "240mm Missile Launcher (1) +2\n   - [ไกล,กายภาพ,ระเบิด,Body]\n   - ถ้าโจมตีสำเร็จทำDMGอีก 1 เต๋า"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "MELEE",
+      "COST": 3,
+      "DETAIL": "Beam Naginata (3)\n- [ใกล้,พลังงาน]\n- DMG d2 เต๋า"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "RANGE",
+      "COST": 4,
+      "DETAIL": "Beam rifle (4)\n- [ไกล,พลังงาน]\n- DMG 2 เต๋า"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "MELEE",
+      "COST": 5,
+      "DETAIL": "Beam Saber (5)\n- [ใกล้,พลังงาน]\n- DMG 2 เต๋า"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "Equipment [x]",
+      "COST": 2,
+      "DETAIL": "Missile Shield (2) x3\n- [ใกล้,กายภาพ]\n- สามารถใช้อุปกรณ์กระสุนดวงนี้เสริมการโจมตีระยะไกลได้\n- เมื่อโจมตีสำเร็จทำDMG+1"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "Augmented Parts [Body]",
+      "COST": 4,
+      "DETAIL": "Detachable Head (4)\n    - [Body] \n    - เมื่อClicheใดๆของMSเป็น 0 จะสามารถแยกหัวออกกลายเป็นยูนิต MS Head \n    > MS Head  \n       Body (1)\n       Propulsion (2) \n       Head Mega Particle Cannon (3)\n       - [ไกล,พลังงาน]\n       - DMG 1 เต๋า"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "RANGE",
+      "COST": 4,
+      "DETAIL": "Waist Mega Particle Cannon ปืนใหญ่ลำแสงคู่ที่เอว (4)\n- [ไกล,พลังงาน]\n- DMG 2 เต๋า"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "RANGE",
+      "COST": 6,
+      "DETAIL": "Wired 5-barrel Mega Particle Cannon (6)\n- [ไกล,Psychic,พลังงาน,รีโมท]\n- DMG 2 เต๋า\n- นักบินจำเป็นต้องมี Psychic เท่านั้นจะสามารถใช้งานClicheนี้\n- สามารถเลือกจ่าย 1 PP ของนักบิน เพิ่มการทอยเต๋า +2 เต๋า\n- เมื่อใช้Clicheนี้เริ่มโจมตี หักลดเลข[Propulsion]ของเป้าหมาย 2 เต๋าเป็นเวลา 1 เทิร์นของตนเอง"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "RANGE",
+      "COST": 4,
+      "DETAIL": "Spread shot (4) \n   - DMG 2 เต๋า\n   - เลือกเป้าหมายโจมตีได้ 2 ครั้ง"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "RANGE",
+      "COST": 2,
+      "DETAIL": "Machine Gun (2)\n- [ไกล,กายภาพ]\n- DMG 1 เต๋า\n- สามารถเลือกโจมตีได้ 2 ครั้งในหนึ่งเทิร์น หลังจากนั่นต้องรีโหลด"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "Equipment [x]",
+      "COST": 2,
+      "DETAIL": "60mm Machine Gun (2) x2\n    - [ไกล,กายภาพ]\n    - ถ้าโจมตีสำเร็จทำDMG+1"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "RANGE",
+      "COST": 3,
+      "DETAIL": "4-tube 40mm Bop Missile Launcher (3)\n- [ไกล,กายภาพ,ระเบิด]\n- DMG 1 เต๋า\n- เมื่อโจมตีสำเร็จ เป้าหมายจะ Other Action ไม่ได้"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "RANGE",
+      "COST": 4,
+      "DETAIL": "180mm Cannon (4)\n- [ไกล,กายภาพ]\n- DMG 2 เต๋า"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "RANGE",
+      "COST": 3,
+      "DETAIL": "75mm Gatling Gun (3)\n- [ไกล,กายภาพ]\n- DMG 1 เต๋า\n- สามารถเลือกโจมตีได้ 2 ครั้งในหนึ่งเทิร์น\n- เมื่อโจมตียูนิตที่มี [Body] ไม่เกิน (3) ได้ +1 เต๋า"
+    },
+    {
+      "YEAR": "0079",
+      "TYPE": "Equipment [x]",
+      "COST": 1,
+      "DETAIL": "3-barrel 35mm Machine Gun (1) x3\n    - [ไกล,กายภาพ]\n    - ระยะ 2 ช่อง\n    - เมื่อโจมตีสำเร็จให้ทอยD6 TNที่ 4+ ถ้าสำเร็จ DMG +1"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "Augmented Parts [Body]",
+      "COST": 4,
+      "DETAIL": "EXAM System (4)\n    - [Body]\n    - เมื่อเปิดใช้งานต้องทอย TN 4+ ให้ผ่านก่อน หากไม่ผ่านการเคลื่อนที่ลดลงครึ่งหนึ่ง(ปัดขึ้น)ในเทิร์นถัดไป \n    - เมื่อทอยผ่าน การโจมตี,ตั้งรับ และทุกการกระทำ +2 เต๋า เป็นเวลา 1 รอบ\n    - เมื่อเปิดใช้งานครบ 1 รอบให้ทอยTN ที่ 4+ ทอยไม่ผ่านจะถูกข้ามเทิร์น แล้วโบนัสนี้จะหายไป ต้องรออีก 2 เทิร์นถึงจะเปิดใช้งานได้อีกครั้ง"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "RANGE",
+      "COST": 4,
+      "DETAIL": "BLASH XBR-M-79E Beam Rifle (4)\n- [ไกล,พลังงาน]\n- DMG 2 เต๋า"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "Equipment [+]",
+      "COST": 1,
+      "DETAIL": "Abdominal Wired-Control Missile (1)+2\n- [ไกล,กายภาพ,ระเบิด]\n- ถ้าโจมตีสำเร็จทำDMGอีก 1 เต๋า\n- เมื่อโจมตีสำเร็จให้เป้าหมายทอยเต๋าถ้าได้ 3- จะไม่สามารถทำ Other Action ได้"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "RANGE",
+      "COST": 4,
+      "DETAIL": "YHI FH-X180 180mm Cannon (4)\n- [ไกล,กายภาพ] \n- DMG 2 เต๋า"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "Equipment [+]",
+      "COST": 1,
+      "DETAIL": "Twin Grenade Launcher (1) +2\n- [ไกล,กายภาพ,ระเบิด]\n- ใช้ Other Action เพื่อปาพื้นที่ใดก็ได้ในระยะตามเลขเต๋าของ Body ปัจจุบัน\n- ทำ DMG 1 เต๋าต่อยูนิต และทำDMG 2 เต๋าต่อที่กำบังในรัศมี 2 ช่อง\n- ถ้าใช้เสริมการโจมตีสำเร็จทำDMGอีก 1 เต๋ารวมถึงยูนิตที่รอบตัวภายในรัศมี 1 ช่อง"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "Equipment [+]",
+      "COST": 1,
+      "DETAIL": "6-tube Missile Pod (1)+2\n- [ไกล,กายภาพ,ระเบิด]\n- ถ้าโจมตีสำเร็จทำDMGอีก 1 เต๋า\n- เมื่อโจมตีสำเร็จให้เป้าหมายทอยเต๋าถ้าได้ 3- จะไม่สามารถทำ Other Action ได้"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "Augmented Parts [Body]",
+      "COST": 4,
+      "DETAIL": "Transformable Tank (4)\n     - เปลี่ยนร่างเป็น Tank Mode ได้\n     - เมื่ออยู่ในร่าง Tank Mode [Propulsion] +1 ถือว่าทำการนอนคว่ำตลอดเวลา และไม่ลดจำนวนช่องการ\n     - เมื่อติดตั้งอุปกรณ์ส่วนเสริมนี้ ไม่สามารถบินบนชั้นบรรยากาศได้ทุกกรณี"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "RANGE",
+      "COST": 4,
+      "DETAIL": "30cm Cannon (4)\n- [ไกล,กายภาพ]\n- DMG 2 เต๋า"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "RANGE",
+      "COST": 2,
+      "DETAIL": "Anti-Air Shrapnel (2)\n- [ไกล,กายภาพ]\n- DMG 1 เต๋า\n- เมื่อเล็งศัตรูในระยะ 1 ช่องจะทอยโจมตีไม่เสียเปรียบ\n- เมื่อตะบันพุ่งแล้ว สามารถใช้โจมตีได้"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "Equipment [+]",
+      "COST": 1,
+      "DETAIL": "Smoke Discharger (1) +1\n- [ไกล,กายภาพ,ระเบิด]\n- ใช้ Other Action เพื่อปาพื้นที่ใดก็ได้ในระยะตามเลขเต๋าของ [Body] ปัจจุบัน\n- สร้างพื้นที่บดบังวิสัยทัศน์ในบริเวณรัศมี 2 ช่องที่ถูกปาเป็นเวลา 2 เทิร์นของตนเอง และยูนิตในพื้นที่จะได้การกระทำ ซ่อนตัว ทันที"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "MELEE",
+      "COST": 2,
+      "DETAIL": "Shovel Arm (2)\n- [ใกล้,กายภาพ]\n- DMG 1 เต๋า"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "RANGE",
+      "COST": 4,
+      "DETAIL": "135mm Anti-Ship Rifle (4)\n- [ไกล,กายภาพ]\n- DMG 2 เต๋า"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "MELEE",
+      "COST": 4,
+      "DETAIL": "Large Heat Hawk (4)\n- [ใกล้,กายภาพ,ความร้อน]\n- DMG 2 เต๋า\n- เมื่อใช้อาวุธนี้โจมตียูนิตตัวเดียว 2 ครั้งติดต่อกัน ยูนิตนั้นทำ Other Action ไม่ได้ในรอบถัดไป"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "RANGE",
+      "COST": 4,
+      "DETAIL": "220mm Cannon (4)\n- [ไกล,กายภาพ,ระเบิด]\n- DMG 2 เต๋า"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "RANGE",
+      "COST": 2,
+      "DETAIL": "4-tube Bop Gun (2)\n- [ไกล,กายภาพ]\n- DMG 1 เต๋า\n- สามารถเลือกโจมตีได้ 2 ครั้งในหนึ่งเทิร์น หลังจากนั่นต้องรีโหลด"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "RANGE",
+      "COST": 2,
+      "DETAIL": "Flamethrower (2)\n- [ไกล,กายภาพ,ความร้อน]\n- DMG 1 เต๋า\n- สามารถเลือกโจมตีได้ d3 ครั้งในหนึ่งเทิร์น\n- ไม่มีการติดคริติคอล\n- ไม่สามารถใช้ได้ในอวกาศ"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "Equipment [+]",
+      "COST": 3,
+      "DETAIL": "56-tube Rocket Launcher (3)+2\n- ถ้าโจมตีสำเร็จทำDMGอีก 1 เต๋า\n- สามารถใช้อุปกรณ์กระสุนดวงนี้ได้ 3 ครั้ง"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "RANGE",
+      "COST": 3,
+      "DETAIL": "180mm Cannon (3)\n- [ไกล,กายภาพ,ระเบิด]\n- DMG 1 เต๋า\n- เมื่อหมอบลง DMG d2 เต๋า"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "RANGE",
+      "COST": 3,
+      "DETAIL": "Large Gatling Cannon (3)\n- [ไกล,กายภาพ]\n- DMG 1 เต๋า\n- สามารถเลือกโจมตีได้ 2 ครั้งในหนึ่งเทิร์น \n- เมื่อโจมตียูนิตที่มี [Body] ไม่เกิน (3) ได้ +1 เต๋า"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "MEDIUM",
+      "COST": 4,
+      "DETAIL": "Heat Halberd (4)\n- [กลาง,กายภาพ] \n- DMG d2 เต๋า"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "RANGE",
+      "COST": 3,
+      "DETAIL": "5-barrel 85mm Machine Gun (3)\n- [ไกล,กายภาพ]\n- DMG 1 เต๋า\n- สามารถเลือกโจมตีได้ 2 ครั้งในหนึ่งเทิร์น หลังจากนั่นต้องรีโหลด"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "RANGE",
+      "COST": 2,
+      "DETAIL": "Shotgun (2) \n- [ไกล,กายภาพ]\n- DMG 1 เต๋า\n- เมื่อเล็งศัตรูในระยะ 1 ช่องจะทอยโจมตีไม่เสียเปรียบ\n- เมื่อตะบันพุ่งแล้ว สามารถใช้โจมตีได้"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "MELEE",
+      "COST": 4,
+      "DETAIL": "Heat Dagger (4)\n- [ใกล้,กายภาพ,ความร้อน]\n- DMG 2 เต๋า\n- เมื่อใช้อาวุธนี้โจมตียูนิตตัวเดียว 2 ครั้งติดต่อกัน ยูนิตนั้นทำ Other Action ไม่ได้ในรอบถัดไป"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "RANGE",
+      "COST": 3,
+      "DETAIL": "Throwing Heat Dagger (3)\n   - [ไกล,กายภาพ,ความร้อน]\n   - DMG 1 เต๋า\n   - เมื่อใช้อาวุธนี้โจมตียูนิตตัวเดียว 2 ครั้งติดต่อกัน ยูนิตนั้นทำ Other Action ไม่ได้ในรอบถัดไป"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "MEDIUM",
+      "COST": 7,
+      "DETAIL": "Heat Lancer (7)\n- [กลาง,กายภาพ,ความร้อน] \n- เมื่อโจมตีให้ใช้เลข Cliche (6) แทน\n- DMG 3 เต๋า\n- เมื่อใช้อาวุธนี้โจมตียูนิตตัวเดียว 2 ครั้งติดต่อกัน ยูนิตนั้นทำ Other Action ไม่ได้ในรอบถัดไป"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "MELEE",
+      "COST": 4,
+      "DETAIL": "Sweeping Heat Lancer (4)\n  - [ใกล้,กายภาพ,ความร้อน] \n  - DMG 2 เต๋า\n  - โจมตีทุกยูนิตเป็นรูปพัดในระยะใกล้"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "Augmented Parts [Body]",
+      "COST": 3,
+      "DETAIL": "Beam Stealth Coat (3)\n     - เมื่อซ่อนตัว จะมีความยากในการถูกตามหาที่ 11 แต้ม"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "MELEE",
+      "COST": 4,
+      "DETAIL": "Beam Dagger (4)\n- [ใกล้,พลังงาน]\n- DMG 2 เต๋า"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "RANGE",
+      "COST": 3,
+      "DETAIL": "Throwing Beam Dagger (3)\n   - [ไกล,พลังงาน]\n   - DMG 1 เต๋า"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "RANGE",
+      "COST": 3,
+      "DETAIL": "90 Submachine Gun (3)\n- [ไกล,กายภาพ]\n- DMG 1 เต๋า\n- สามารถใช้ยิงได้ แม้เทิร์นนี้โจมตีระยะใกล้แล้ว\n- เมื่อเล็งศัตรูในระยะ 1 ช่องจะทอยโจมตีไม่เสียเปรียบ"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "RANGE",
+      "COST": 3,
+      "DETAIL": "360mm Rocket Cannon (3)\n- [ไกล,กายภาพ,ระเบิด]\n- DMG 1 เต๋า\n- เมื่อหมอบลง DMG d2 เต๋า"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "Equipment [+]",
+      "COST": 2,
+      "DETAIL": "Missile Bay (2)+2\n- [ไกล,กายภาพ,ระเบิด]\n- ถ้าโจมตีสำเร็จทำDMGอีก 1 เต๋า\n- สามารถใช้อุปกรณ์กระสุนดวงนี้ได้ 2 ครั้ง"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "RANGE",
+      "COST": 5,
+      "DETAIL": "Twin Beam Rifle (5)\n- [ไกล,พลังงาน]\n- DMG 2 เต๋า\n- ยิงได้ d2 ครั้ง"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "Augmented Parts [Body]",
+      "COST": 3,
+      "DETAIL": "Jamming System (3)\n    - [Body]\n    - เมื่อซ่อนตัว จะมีความยากในการถูกตามหาที่ 11 เต๋า"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "MELEE",
+      "COST": 3,
+      "DETAIL": "Cold Blade (3)\n- [ใกล้,กายภาพ]\n- DMG 1 เต๋า"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "MELEE",
+      "COST": 4,
+      "DETAIL": "Cold Kunai (4)\n- [ใกล้,กายภาพ]\n- DMG 2 เต๋า"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "RANGE",
+      "COST": 3,
+      "DETAIL": "Throwing Cold Kunai (3)\n   - [ไกล,กายภาพ]\n   - DMG 1 เต๋า"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "RANGE",
+      "COST": 3,
+      "DETAIL": "Triple Gatling Gun (3)\n- [ไกล,กายภาพ]\n- DMG 1 เต๋า\n- สามารถเลือกโจมตีได้ 2 ครั้งในหนึ่งเทิร์น\n- เมื่อโจมตียูนิตที่มี [Body] ไม่เกิน (3) ได้ +1 เต๋า"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "Equipment [+]",
+      "COST": 1,
+      "DETAIL": "4-tube Missile Launcher (1)+2\n   - [ไกล,กายภาพ,ระเบิด,Body]\n   - ถ้าโจมตีสำเร็จทำDMGอีก 1 เต๋า"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "MELEE",
+      "COST": 3,
+      "DETAIL": "Large Drill (3)\n- [ใกล้,กายภาพ]\n- DMG 1 เต๋า\n- เมื่อโจมตียูนิตที่นอนคว่ำอยู่ ได้ +1 เต๋า"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "RANGE",
+      "COST": 1,
+      "DETAIL": "Laser Torch (1)\n- [ไกล,พลังงาน]\n- DMG 1 เต๋า\n- สามารถใช้ยิงได้ แม้เทิร์นนี้โจมตีระยะใกล้แล้ว\n- เมื่อเล็งศัตรูที่อยู่ติดกันจะโจมตีไม่เสียเปรียบ"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "Equipment [+]",
+      "COST": 1,
+      "DETAIL": "8-tube Missile Launcher (1) +2\n- [ไกล,กายภาพ,ระเบิด]\n- ถ้าโจมตีสำเร็จทำDMGอีก 1 เต๋า\n- เมื่อโจมตีสำเร็จให้เป้าหมายทอยเต๋าถ้าได้ 3- จะไม่สามารถทำ Other Action ได้"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "RANGE",
+      "COST": 2,
+      "DETAIL": "Camera Spot Gun (2)\n- [ไกล,กายภาพ]\n- DMG 0 เต๋า\n- ระยะ 3 ช่อง\n- เลือกยูนิต 1 ตัวในระยะแล้วจะติด Marker เป็นเวลา 2 รอบ  \n- ทุกยูนิตฝ่ายเดียวกันที่เลือกโจมตีติด Marker ให้ทอยTNที่ 5+ ถ้าทอยสำเร็จการโจมตีนั้น +1 เต๋า (ไม่มีการซ้อนทับโบนัสจากความสามารถนี้)"
+    },
+    {
+      "YEAR": "0079 MSV",
+      "TYPE": "RANGE",
+      "COST": 2,
+      "DETAIL": "110mm Machine Gun (2) \n- [ไกล,กายภาพ]\n- DMG 1 เต๋า\n- สามารถเลือกโจมตีได้ 2 ครั้งในหนึ่งเทิร์น หลังจากนั่นต้องรีโหลด"
+    },
+    {
+      "YEAR": "0080",
+      "TYPE": "RANGE",
+      "COST": 3,
+      "DETAIL": "90mm Gatling Gun (3)\n    - [ไกล,กายภาพ,Body]\n    - DMG 1 เต๋า\n    - สามารถโจมตีได้ d2 ครั้งในหนึ่งเทิร์น\n    - เมื่อโจมตียูนิตที่มี [Body] ไม่เกิน (2) DMG +1 เต๋า"
+    },
+    {
+      "YEAR": "0080",
+      "TYPE": "RANGE",
+      "COST": 3,
+      "DETAIL": "MMP-80 90mm machine gun (3)\n- [ไกล,กายภาพ]\n- DMG 1 เต๋า\n- สามารถเลือกโจมตีได้ 2 ครั้งในหนึ่งเทิร์น หลังจากนั่นต้องรีโหลด"
+    },
+    {
+      "YEAR": "0080",
+      "TYPE": "RANGE",
+      "COST": 4,
+      "DETAIL": "360mm Giant Bazooka II (4)\n- [ไกล,กายภาพ,ระเบิด]\n- DMG 2 เต๋า"
+    },
+    {
+      "YEAR": "0080",
+      "TYPE": "RANGE",
+      "COST": 2,
+      "DETAIL": "Jagdgewehr 192mm Shotgun (2) \n- [ไกล,กายภาพ]\n- DMG 1 เต๋า\n- เมื่อเล็งศัตรูในระยะ 1 ช่องจะทอยโจมตีไม่เสียเปรียบ\n- เมื่อตะบันพุ่งแล้ว สามารถใช้โจมตีได้"
+    },
+    {
+      "YEAR": "0080",
+      "TYPE": "RANGE",
+      "COST": 3,
+      "DETAIL": "Beam Cannon (3) \n- [ไกล,พลังงาน]\n- DMG 1 เต๋า"
+    },
+    {
+      "YEAR": "0080",
+      "TYPE": "MELEE",
+      "COST": 3,
+      "DETAIL": "Vice Claws (3)\n- [ใกล้,กายภาพ]\n- DMG 1 เต๋า"
+    },
+    {
+      "YEAR": "0080",
+      "TYPE": "Equipment [+]",
+      "COST": 1,
+      "DETAIL": "Hand Missile Unit (1) +2 \n- [ไกล,กายภาพ,ระเบิด]\n- ถ้าโจมตีสำเร็จทำDMGอีก 1 เต๋า\n- เมื่อโจมตีสำเร็จให้เป้าหมายทอยเต๋าถ้าได้ 3- จะไม่สามารถเข้า Other Action Phase ได้"
+    },
+    {
+      "YEAR": "0083",
+      "TYPE": "RANGE",
+      "COST": 2,
+      "DETAIL": "110 Machine Cannon (2)\n    - [ไกล,กายภาพ]\n    - DMG 1 เต๋า\n    - สามารถเลือกโจมตีได้ 2 ครั้งในหนึ่งเทิร์น หลังจากนั่นต้องรีโหลด"
+    },
+    {
+      "YEAR": "0083",
+      "TYPE": "MELEE",
+      "COST": 4,
+      "DETAIL": "Beam Saber (4)\n- [ใกล้,พลังงาน]\n- DMG 2 เต๋า"
+    },
+    {
+      "YEAR": "0083",
+      "TYPE": "RANGE",
+      "COST": 2,
+      "DETAIL": "40mm Vulcan Gun (2)\n- [ไกล,กายภาพ]\n- สามารถโจมตีได้ 2 ครั้งในหนึ่งเทิร์น หลังจากนั้นต้องรีโหลด\n- DMG 1 เต๋า"
+    },
+    {
+      "YEAR": "0083",
+      "TYPE": "Equipment [+]",
+      "COST": 2,
+      "DETAIL": "8-tube Missile Launcher Rack (2) +2\n- [ไกล,กายภาพ,ระเบิด]\n- ถ้าโจมตีสำเร็จทำDMGอีก 1 เต๋า\n- สามารถใช้อุปกรณ์กระสุนดวงนี้ได้ 2 ครั้ง"
+    },
+    {
+      "YEAR": "0083",
+      "TYPE": "RANGE",
+      "COST": 3,
+      "DETAIL": "GM Rifle (3)\n- [ไกล,พลังงาน]\n- DMG 1 เต๋า"
+    },
+    {
+      "YEAR": "0083",
+      "TYPE": "RANGE",
+      "COST": 4,
+      "DETAIL": "GM Rifle (4)\n- [ไกล,พลังงาน]\n- DMG 1 เต๋า"
+    },
+    {
+      "YEAR": "0083",
+      "TYPE": "Augmented Parts [Propulsion]",
+      "COST": 3,
+      "DETAIL": "Full Burnern Pack (3)\n   - [Propulsion]\n   - เมื่อใช้งานให้ทอย TN ที่ 3+ เมื่อผ่าน [Propulsion] +1 เต๋า"
+    },
+    {
+      "YEAR": "0083",
+      "TYPE": "Augmented Parts [Body]",
+      "COST": 5,
+      "DETAIL": "Vulcan Gun (1)x3\n    - [ไกล,กายภาพ]\n    - ระยะ 2 ช่อง\n    - เมื่อโจมตีสำเร็จให้ทอยD6 TNที่ 4+ ถ้าสำเร็จ DMG +1"
+    },
+    {
+      "YEAR": "0083",
+      "TYPE": "MELEE",
+      "COST": 6,
+      "DETAIL": "Beam Saber ขนาดใหญ่เพื่อตัดเกราะหนา (6)\n- [ใกล้,พลังงาน]\n- DMG 3 เต๋า"
+    },
+    {
+      "YEAR": "0083",
+      "TYPE": "Equipment [x]",
+      "COST": 3,
+      "DETAIL": "โล่ขนาดใหญ่ที่มีระบบทำความเย็นด้วยไนโตรเจนเหลว (3)x3\n- [ใกล้,กายภาพ]"
+    },
+    {
+      "YEAR": "0083",
+      "TYPE": "RANGE",
+      "COST": 6,
+      "DETAIL": "AE/ZIM.G-BAZ-0186-A Atomic Bazooka (6)\n- [ไกล,พลังงาน]\n- เลือกระเบิดภายในระยะยิงเป็น 6x6 ช่องเป็น DMG 6 เต๋า\n- เมื่อใช้อาวุธนี้แล้ว [Body] เหลือ 1 เต๋า \n- ใช้ได้หนึ่งครั้งต่อเกม แล้วต้องทิ้งทันที\nOptional อาวุธนี้ไม่อนุญาตให้ใช้แคมเปญและ One-shot ใช้ได้เฉพาะเล่นกันเองเท่านั้น"
+    },
+    {
+      "YEAR": "0083",
+      "TYPE": "RANGE",
+      "COST": 4,
+      "DETAIL": "Folding Bazooka (4) \n- [ไกล,กายภาพ,ระเบิด]\n- DMG 2 เต๋า\n- ยูนิตที่รอบตัวเป้าหมายภายในรัศมี 1 ช่องต้องทอย 3+ ถ้าไม่ผ่านจะโดน DMG 1 เต๋าที่ [Body]หรือ"
+    },
+    {
+      "YEAR": "0083",
+      "TYPE": "Augmented Parts [Propulsion]",
+      "COST": 4,
+      "DETAIL": "[Propulsion]\nFolding Bazooka (4)\n- [ไกล,กายภาพ,ระเบิด]\n- DMG 2 เต๋า\n- ยูนิตที่รอบตัวเป้าหมายภายในรัศมี 1 ช่องต้องทอย 3+ ถ้าไม่ผ่านจะโดน DMG 1 เต๋าที่ [Body]หรือ"
+    },
+    {
+      "YEAR": "0083",
+      "TYPE": "Equipment [x]",
+      "COST": 1,
+      "DETAIL": "โล่ Luna Titanium แบบพับเก็บได้ (1) x3\n- [ใกล้,กายภาพ]"
+    },
+    {
+      "YEAR": "0083",
+      "TYPE": "Equipment [x]",
+      "COST": 2,
+      "DETAIL": "110mm Machine Cannon (2)x3\n    - [ไกล,กายภาพ]\n    - ระยะ 2 เต๋า\n    - ถ้าโจมตีสำเร็จทำDMG+1"
+    },
+    {
+      "YEAR": "0083",
+      "TYPE": "RANGE",
+      "COST": 4,
+      "DETAIL": "X-04 Beam Machine Gun (4)\n- [ไกล,พลังงาน]\n- DMG d2 เต๋า\n- สามารถเลือกโจมตีได้ 2 ครั้งในหนึ่งเทิร์น หลังจากนั่นต้องรีโหลด"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "Augmented Parts [Body]",
+      "COST": 1,
+      "DETAIL": "55mm Vulcan Gun Phalanx (1)x3\n    - [ไกล,กายภาพ,Body]\n    - ระยะ 2 ช่อง\n    - เมื่อโจมตีสำเร็จให้ทอยD6 TNที่ 4+ ถ้าสำเร็จ DMG +1"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "RANGE",
+      "COST": 5,
+      "DETAIL": "300mm Clay Bazooka-Grenade (5)\n- [กายภาพ,ไกล,ระเบิด]\n- DMG 2 เต๋า\n- ทำ DMG 1 เต๋าต่อ[Body]ของยูนิต และทำDMG 2 เต๋าต่อที่กำบังในรัศมี 2 ช่อง"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "RANGE",
+      "COST": 5,
+      "DETAIL": "300mm Clay Bazooka-Shot Gun (5)\n- [ไกล,กายภาพ]\n- เมื่อโจมตีที่ระยะ 1-2 ช่อง DMG 2 เต๋า, ระยะ 3-5 ช่อง DMG 1 เต๋า\n- เมื่อเล็งศัตรูในระยะ 1 ช่องจะทอยโจมตีไม่เสียเปรียบ\n- เมื่อตะบันพุ่งแล้ว สามารถใช้โจมตีได้"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "RANGE",
+      "COST": 5,
+      "DETAIL": "300mm Clay Bazooka-Glue (5)\n- [ไกล,กายภาพ]\n- DMG 2 เต๋า\n- เมื่อโจมตีสำเร็จให้เป้าหมายทอยเต๋าถ้าได้ 4- จะไม่สามารถทำ Other Action 1 เทิร์น"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "RANGE",
+      "COST": 5,
+      "DETAIL": "Hyper Bazooka MkII (5)\n- [ไกล,กายภาพ,ระเบิด]\n- DMG 2 เต๋า \n- เมื่อโจมตีสำเร็จให้เป้าหมายทอยเต๋าถ้าได้ 3- จะไม่สามารถทำการ Battle ได้"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "Equipment [x]",
+      "COST": 4,
+      "DETAIL": "โล่ที่ช่องยิง Missile Launcher(1) x 4\n- [ใกล้,กายภาพ]\n- สามารถใช้Clicheนี้เสริมการโจมตีระยะไกลได้"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "Augmented Parts [Body]",
+      "COST": 4,
+      "DETAIL": "Beam-Resistant Coating (4)\n    - [กายภาพ,Body]\n    - เมื่อตั้งรับจากการโจมตี[พลังงาน] เพิ่มเต๋า +1 เต๋า"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "RANGE",
+      "COST": 5,
+      "DETAIL": "BR-M-87 Beam Rifle (5)\n- [ไกล,พลังงาน]\n- DMG 2 เต๋า"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "RANGE",
+      "COST": 2,
+      "DETAIL": "Beam Pistol (2)\n- [ไกล,พลังงาน]\n- DMG 1 เต๋า\n- สามารถเลือกโจมตีได้ 2 ครั้งในหนึ่งเทิร์น\n- สามารถใช้ยิงได้ แม้เทิร์นนี้โจมตีระยะใกล้แล้ว\n- เมื่อเล็งศัตรูที่อยู่ติดกันจะโจมตีไม่เสียเปรียบ"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "RANGE",
+      "COST": 8,
+      "DETAIL": "FHA-03M1 Mega Bazooka Launcher (8) \n- [ไกล,พลังงาน]\n- DMG 5 เต๋า\n- เมื่อใช้ Cliche นี้จะต้องทำการชาร์จ 2 เทิร์น แต่ไม่ได้รับผลจากการชาร์จ\n- โจมตีทุกยูนิตที่อยู่แนวตรงสุดระยะ"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "Equipment [x]",
+      "COST": 1,
+      "DETAIL": "Vulcan Gun (1)x3R\n    - [ไกล,กายภาพ,Body]\n    - ระยะ 2 ช่อง\n    - เมื่อโจมตีสำเร็จให้ทอยD6 TNที่ 4+ ถ้าสำเร็จ DMG +1"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "Augmented Parts [Body]",
+      "COST": 4,
+      "DETAIL": "Transformable Frame (4)\n   - [Body]\n   - เปลี่ยนร่างเป็น Mobile Armor ได้ \n   - เมื่ออยู่ในร่าง Mobile Armor เพิ่ม [Propulsion] +1 เต๋า และบินได้ในชั้นบรรยากาศ"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "RANGE",
+      "COST": 5,
+      "DETAIL": "Large Beam Rifle (5)\n- [ไกล,พลังงาน]\n- DMG 2 เต๋า"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "Equipment [+]",
+      "COST": 4,
+      "DETAIL": "Triple Missile Launcher ที่แขนซ้าย และ 180mm Quadruple Rocket Pod ที่แขนขวา (4)+4\n- ถ้าโจมตีสำเร็จทำDMGอีก 2 เต๋า\n- สามารถใช้Clicheกระสุนดวงนี้ได้ 4 ครั้ง"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "Equipment [x]",
+      "COST": 2,
+      "DETAIL": "Twin Smoke Discharger ใช้สำหรับยิงกระสุนควันเพื่อหลบหนี (2)x2\n- [ไกล,กายภาพ,ระเบิด]\n- ใช้ Other Action Phase เพื่อปาพื้นที่ใดก็ได้ในระยะตามเลขเต๋า[Body]\n- สร้างพื้นที่บดบังวิสัยทัศน์ในบริเวณที่ถูกปาเป็นเวลา 2 เทิร์นของตนเอง"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "RANGE",
+      "COST": 6,
+      "DETAIL": "Fedayeen Rifle ปืนไรเฟิลกำลังสูง ติดตั้งBeam Saber สามารถใช้ใช้ได้ทั้งร่าง MS และ MA  (6)\n- [ไกล,พลังงาน]\n- DMG 3 เต๋า"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "MELEE",
+      "COST": 4,
+      "DETAIL": "Long Beam Saber (4)\n    - [ใกล้,พลังงาน]\n    - DMG 2 เต๋า"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "RANGE",
+      "COST": 4,
+      "DETAIL": "Arm Beam Gun (4)\n- [ไกล,พลังงาน]\n- DMG 2 เต๋า"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "Equipment [x]",
+      "COST": 2,
+      "DETAIL": "Grenade Launcher (2)x3\n- [ไกล,กายภาพ,ระเบิด]\n- ถ้าโจมตีสำเร็จทำDMGอีก 1 เต๋า และทำDMGต่อ[Body]ยูนิตที่อยู่รอบรัศมีหนึ่งช่อง 1 เต๋า"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "Augmented Parts [Propulsion]",
+      "COST": 5,
+      "DETAIL": "ระบบขับเคลื่อนด้วยแบ็คแพ็คติด Flight Unit (5)\n- [Propulsion]\n- บินบนชั้นบรรยากาศได้ \n- เมื่อบินอยู่จะเพิ่มClicheนี้อีก 1 เต๋า"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "Equipment [x]",
+      "COST": 2,
+      "DETAIL": "2-Tube Grenade Launcher ที่ข้อมือและอีกเก็บไว้ท้ายโล่ (2)x3\n- [ไกล,กายภาพ,ระเบิด]\n- สามารถใช้โจมตีระยะไกล DMG 1 เต๋าต่อยูนิต และDMG 2 เต๋าต่อที่กำบังในรัศมี 2 ช่อง\n- ถ้าใช้เสริมการโจมตีสำเร็จทำDMGอีก 1 เต๋า"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "RANGE",
+      "COST": 6,
+      "DETAIL": "XBR-M87A2 Beam Rifle (6)\n- [ไกล,พลังงาน]\n- เมื่อโจมตีให้ใช้เลข Cliche (5) แทน\n- DMG 2 เต๋า"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "Equipment [x]",
+      "COST": 1,
+      "DETAIL": "โล่ Gundarium Gamma Alloy (1) x 4\n- [ใกล้,กายภาพ]"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "RANGE",
+      "COST": 10,
+      "DETAIL": "FXA-03M2 Hyper Mega Launcher (10)\n- [ไกล,พลังงาน]\n- เมื่อใช้งานต้องจ่าย [Propulsion] -1 เต๋า สามารถใช้อาวุธนี้ได้อีกต้องทำการชาร์จอีก 2 เทิร์น  \n- DMG 5 เต๋า\n- DMGต่อหมู่รบ 10 เต๋า\n>  Long Beam Saber (6)\n    - [ใกล้,พลังงาน]\n    - DMG 3 เต๋า\n- โจมตีทุกยูนิตเป็นเส้นตรงสุดระยะ"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "Augmented Parts [Propulsion]",
+      "COST": 4,
+      "DETAIL": "Thrust-Vectoring Hover (4)\n    - เมื่ออยู่บนพื้นดิน [Propulsion] +1 เต๋า"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "MELEE",
+      "COST": 5,
+      "DETAIL": "Beam Naginata (5)\n- [ใกล้,พลังงาน]\n- DMG 2 เต๋า"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "Equipment [x]",
+      "COST": 1,
+      "DETAIL": "โล่ Gundarium Alloy ที่ไหล่  (1) x 4\n- [ใกล้,กายภาพ]"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "RANGE",
+      "COST": 6,
+      "DETAIL": "Mega Particle Cannon ที่ฝ่ามือทั้งสองข้าง (6)\n- [ไกล,พลังงาน]\n- DMG 3 เต๋า"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "Augmented Parts [Body]",
+      "COST": 2,
+      "DETAIL": "G-Defenser Docking Unit (2)\n    - [Body]\n    - สามารถเลือกเข้ารวมร่างกับยูนิตที่มี Cost ปัจจุบันไม่เกิน 12 เต๋าที่อยู่ติดกันกลายเป็นยูนิตตัวเดียวกัน ซึ่ง [Body] และ [Propulsion] ของทั้งสองจะรวมกัน แต่ไม่เกิน (8) \n    - เมื่อรวมร่างแล้ว ให้นักบินคนใดคนหนึ่งทำการ Combat หรือ Other Action ใดๆด้วยคนเดียวเท่านั้น"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "Equipment [x]",
+      "COST": 4,
+      "DETAIL": "14-tube Missile Pod (4) x 2\n- [ไกล,กายภาพ,ระเบิด]\n- ถ้าโจมตีสำเร็จทำDMG 2 เต๋า รวมถึงยูนิตที่อยู่ติดกันโดน DMG ที่ [Body]"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "RANGE",
+      "COST": 5,
+      "DETAIL": "Long Rifle (5)\n- [ไกล,พลังงาน]\n- DMG 2 เต๋า"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "RANGE",
+      "COST": 6,
+      "DETAIL": "Fedayeen Rifle ปืนไรเฟิลกำลังสูงพร้อมติดตั้งLong Beam Saber (6)\n- [ไกล,พลังงาน]\n- DMG 3 เต๋า"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "MEDIUM",
+      "COST": 3,
+      "DETAIL": "Sea Serpent (3)\n- [ไฟฟ้า, กายภาพ, กลาง]\n- ระยะโจมตี 3 ช่อง\n- DMG 1 เต๋า\n- เมื่อโจมตีสำเร็จ เป้าหมายต้องทอยเต๋า 3+ ถ้าไม่ผ่านจะไม่สามารถเคลื่อนที่ได้ 1 เทิร์น"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "RANGE",
+      "COST": 5,
+      "DETAIL": "Beam Rifle ติดตั้งเครื่องยิงลูกระเบิด (5)\n- [ไกล,พลังงาน]\n- เมื่อโจมตีให้ใช้เลขCliche (4)\n- DMG 2 เต๋า\n> Grenade Launcher (1)+3\n   - [ไกล,กายภาพ,ระเบิด]\n   - ถ้าโจมตีสำเร็จทำDMGอีก 1 เต๋า และทำDMGต่อ[Body]ยูนิตที่อยู่รอบรัศมีหนึ่งช่อง 1 เต๋า"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "MELEE",
+      "COST": 5,
+      "DETAIL": "Arm Claw กรงเล็บแบบสามนิ้วที่แขนติดตั้ง Vulcan Gun (5)\n- [ใกล้,กายภาพ]\n- DMG 2 เต๋า\n> Vulcan Gun (1)x3\n    - [ไกล,กายภาพ]\n    - ระยะ 2 ช่อง\n    - เมื่อโจมตีสำเร็จให้ทอยD6 TNที่ 4+ ถ้าสำเร็จ DMG +1"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "Equipment [x]",
+      "COST": 2,
+      "DETAIL": "Grenade Launcher (2)x3 \n    - [ไกล,กายภาพ,ระเบิด]\n    - ถ้าโจมตีสำเร็จทำDMG+1"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "Equipment [x]",
+      "COST": 2,
+      "DETAIL": "9-tube Missile Pod (2)x3\n- [ไกล,กายภาพ]\n- ถ้าโจมตีสำเร็จทำDMG+1"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "RANGE",
+      "COST": 5,
+      "DETAIL": "Messala Mega Particle Cannon (5)\n- [ไกล,พลังงาน]\n- DMG 4 เต๋า\n- หลังจากใช้งาน Cliche นี้จะต้องรอ 2 เทิร์น ถึงจะสามารถใช้งานอาวุธนี้ได้อีกครั้ง"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "Augmented Parts [Body]",
+      "COST": 3,
+      "DETAIL": "Foot Claw (3)\n   - [Body]\n   - เมื่อจับกุม เพิ่ม +2 เต๋า"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "RANGE",
+      "COST": 4,
+      "DETAIL": "Scattering Beam Cannon ที่ไหล่สองข้าง (4)\n- [ไกล,พลังงาน]\n- DMG 2 เต๋า\n- เมื่อโจมตีสำเร็จศัตรูจะไม่สามารถโจมตีและกระทำอื่นๆได้เป็นเวลา 1 เทิร์นของตัวเอง แต่ยังสามารถกระทำอื่นๆในเทิร์นของผู้อื่นได้"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "RANGE",
+      "COST": 6,
+      "DETAIL": "Twin Beam Gun ปืนบีมแฝดที่แขน (6)\n- [ไกล,พลังงาน]\n- DMG 2 เต๋า\n- ยิงได้สองครั้งในหนึ่งเทิร์น"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "Equipment [x]",
+      "COST": 3,
+      "DETAIL": "Movable Shield (3) x3\n- [ไกล,กายภาพ,ระเบิด]\n- สามารถใช้Clicheนี้เสริมการโจมตีระยะไกลได้\n- เมื่อโจมตีสำเร็จทำDMG+d2"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "Augmented Parts [Body]",
+      "COST": 3,
+      "DETAIL": "Surveillance Sensor Systems (3)\n    - เมื่อตามหายูนิตที่ซ่อนตัว +1 เต๋า"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "Equipment [x]",
+      "COST": 3,
+      "DETAIL": "3-tube Rocket Launcher มิสไซล์คู่ไหล่ (3) x2\n    - [ไกล,กายภาพ]\n    - ถ้าโจมตีสำเร็จทำDMG+3"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "MELEE",
+      "COST": 5,
+      "DETAIL": "Bolinoak Beam Saber (5)\n- [ใกล้,พลังงาน]\n- DMG 2 เต๋า"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "RANGE",
+      "COST": 4,
+      "DETAIL": "Beam Guns (4)\n   - [ไกล,พลังงาน]\n   - DMG d2 เต๋า"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "Equipment [x]",
+      "COST": 1,
+      "DETAIL": "โล่มีคีบหนีบขนาดใหญ่ (1) x 4\n   - [ใกล้,กายภาพ]\n   - สามารถใช้เสริมการโจมตีอื่นๆได้\n   - สามารถเสริมเต๋าในการจับกุมได้ โดยไม่เสียเต๋า"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "MELEE",
+      "COST": 8,
+      "DETAIL": "The-O Beam Sword (8)\n- [ใกล้,พลังงาน]\n- เมื่อโจมตีให้ใช้เลข Cliche (6) แทน\n- DMG 3 เต๋า\n- สามารถใช้Clicheนี้ตั้งรับได้โดยไม่ถูกทำลาย 2 ครั้งต่อเทิร์น"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "Augmented Parts [Propulsion]",
+      "COST": 3,
+      "DETAIL": "ระบบขับเคลื่อนด้วยด้วยเวอร์เนียร์ขับดัน4ตัวที่หลัง (3)\n- เมื่ออยู่ในร่าง Mobile Armor จะเพิ่มClicheนี้อีก 1 เต๋า\n- ในร่าง Mobile Armor บินได้บนชั้นบรรยากาศ"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "RANGE",
+      "COST": 5,
+      "DETAIL": "Knuckle Buster ปืนบีมที่เชื่อมกับเซ็นเซอร์ที่แขนขวา (5)\n- [ไกล,พลังงาน]\n- DMG 2 เต๋า"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "MELEE",
+      "COST": 3,
+      "DETAIL": "Leg Claw (3)\n     - [ใกล้,กายภาพ]\n     - DMG 1 เต๋า\n     - สามารถใช้Clicheนี้เสริมเต๋าในการจับกุมได้"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "RANGE",
+      "COST": 3,
+      "DETAIL": "Bazooka (3)\n- [ไกล,กายภาพ,ระเบิด] \n- DMG 1 เต๋า\n- เมื่อโจมตีสำเร็จศัตรูจะไม่สามารถโจมตีและกระทำอื่นๆได้เป็นเวลา 1 เทิร์นของตัวเอง แต่ยังสามารถกระทำอื่นๆในเทิร์นของผู้อื่นได้"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "MELEE",
+      "COST": 6,
+      "DETAIL": "Qubeley Beam Saber  (6)\n- [ใกล้,พลังงาน]\n- DMG 2 เต๋า"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "RANGE",
+      "COST": 4,
+      "DETAIL": "Beam Gun (4)\n   - [ไกล,พลังงาน]\n   - DMG 2 เต๋า"
+    },
+    {
+      "YEAR": "0087",
+      "TYPE": "RANGE",
+      "COST": 8,
+      "DETAIL": "Funnel (8)\n- [ไกล,พลังงาน,รีโมท,Psychic]\n- DMG 3 เต๋า\n- นักบินต้องมี [Psychic] ถึงจะใช้ได้\n- สามารถเลือกจ่าย 1 PP ของนักบิน เพิ่มการทอยเต๋า +2 เต๋า\n- เมื่อใช้อาวุธนี้เริ่มโจมตี หักลบเลข[Propulsion]ของเป้าหมาย 3 เต๋าเป็นเวลา 1 เทิร์นของตนเอง"
     }
   ]
 }
