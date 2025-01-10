@@ -3,12 +3,15 @@
     <h1>ITEM FINDER</h1>
     <div class="filter">
       <select name="year" id="year" v-model="filter.year">
+        <option v-if="filter.year == ''" selected="" value="">SELECT YEAR</option>
         <option v-for="y in year" :value="y">{{ y }}</option>
       </select>
       <select name="type" id="type" v-model="filter.type">
+        <option v-if="filter.type == ''" selected="" value="">SELECT TYPE</option>
         <option v-for="t in type" :value="t">{{ t }}</option>
       </select>
       <select name="cost" id="cost" v-model="filter.cost">
+        <option v-if="filter.cost == ''" selected="" value="">SELECT COST</option>
         <option v-for="c in cost" :value="c">{{ c }}</option>
       </select>
       <button @click="filter = {
