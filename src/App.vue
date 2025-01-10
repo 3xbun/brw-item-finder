@@ -4,7 +4,7 @@
       <img src="/BRW_logo_new.png" alt="logo">
       <h1>ITEM FINDER</h1>
     </header>
-    <div class="filter">
+    <div class="filter" v-if="Items.length > 0">
       <input type="text" placeholder="Search Item by Name" v-model="filter.details">
       <select name="year" id="year" v-model="filter.year">
         <option v-if="filter.year == ''" selected="" value="">SELECT YEAR</option>
@@ -65,8 +65,9 @@
 </template>
 
 <script setup>
-import { computed, ref } from 'vue';
-import { Items } from './database/Items.json';
+import { computed, ref, onBeforeMount } from 'vue';
+import axios from 'axios';
+const Items = ref([])
 
 const filter = ref({
   year: '',
@@ -76,7 +77,7 @@ const filter = ref({
 });
 
 const filteredItems = computed(() => {
-  return Items.filter(item => {
+  return Items.value.filter(item => {
     return (
       (filter.value.year ? item.YEAR === filter.value.year : true) &&
       (filter.value.type ? item.TYPE === filter.value.type : true) &&
@@ -120,6 +121,12 @@ const cost = computed(() => {
   });
 
   return cost.sort((a, b) => a - b);;
+})
+
+onBeforeMount(() => {
+  axios.get("https://n8n.3xbun.com/webhook/brw-item-api").then(res => {
+    Items.value = res.data;
+  });
 })
 </script>
 
