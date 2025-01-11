@@ -83,8 +83,8 @@ const filteredItems = computed(() => {
       (filter.value.type ? item.TYPE === filter.value.type : true) &&
       (filter.value.cost ? item.COST === filter.value.cost : true) &&
       (filter.value.details ? item.DETAIL.toLowerCase().startsWith(filter.value.details.toLowerCase()) : true)
-    );
-  });
+    )
+  }).sort((a, b) => a.YEAR - b.YEAR);
 })
 
 const year = computed(() => {
